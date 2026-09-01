@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { ArrowUpRight, ChevronDown, Check, ShieldCheck, Sparkles, CircleDot, Menu, X, Zap, BarChart3, MessageCircle, PackageCheck } from "lucide-react";
-const onfonNextMark = "/public/manus-storage/onfon-next-mark-red-black_b74af078.png";
+const onfonNextMark = "/manus-storage/onfon-next-mark-red-black_b74af078.png";
 
 const faqs = [
   ["What is Onfon Next?", "Onfon Next is the intelligence and revenue-growth layer around Onfon Mobile. It helps teams understand what a customer needs next and activate that opportunity responsibly."],
@@ -57,7 +57,7 @@ export default function Landing() {
             </div>
             <div className="relative lg:-mr-28">
               <div className="absolute -left-8 top-8 hidden h-48 w-48 rounded-full bg-[#f7d9dc]/70 blur-3xl lg:block" /><div className="absolute -bottom-10 right-8 hidden h-36 w-36 rounded-full bg-[#f6d8d1]/50 blur-3xl lg:block" />
-              <div className="relative z-10 rounded-[18px] border border-white/80 bg-white/50 p-3 shadow-[0_30px_90px_rgba(39,55,75,0.12)] backdrop-blur-sm sm:p-5"><img src="/public/manus-storage/onfon-next-hero-dashboard-red-black_940a8691.png" alt="Onfon Next operator dashboard preview" className="w-full rounded-xl" /></div>
+              <div className="relative z-10 rounded-[18px] border border-white/80 bg-white/50 p-3 shadow-[0_30px_90px_rgba(39,55,75,0.12)] backdrop-blur-sm sm:p-5"><img src="/manus-storage/onfon-next-hero-dashboard-red-black_940a8691.png" alt="Onfon Next operator dashboard preview" className="w-full rounded-xl" /></div>
               <div className="absolute -bottom-5 -left-3 z-20 hidden rounded-xl border border-[#dce5f0] bg-white px-4 py-3 shadow-[0_15px_30px_rgba(38,55,74,0.12)] sm:block"><div className="qo-eyebrow mb-1">Offer headroom</div><div className="flex items-end gap-2"><span className="text-[22px] font-bold tracking-[-0.05em] text-[#202b37]">KES 11</span><span className="pb-1 text-[10px] font-semibold text-[#6d6d6d]">/ day available</span></div></div>
             </div>
           </div>
